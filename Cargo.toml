@@ -1,0 +1,16 @@
+[package]
+name = "crcx"
+version = "0.1.0"
+authors = ["declty87 <44137919+declty87@users.noreply.github.com>"]
+edition = "2018"
+
+[dependencies]
+
+[dev-dependencies]
+criterion = "0.3"
+crc = "^1.0.0"
+crc-any = "2.3.5"
+
+[[bench]]
+name = "bench"
+harness = false
